@@ -13,14 +13,15 @@ public class Different {
     返回：False
      */
     public boolean checkDifferent(String str) {
+        //要求ASCII编码（8位，共能显示0-255，共256个不同字符）；
+        //即就算字符串中每个字符都不同，长度也最多在256，一旦超出，说明一定有重复。
+        if (str.length() > 256) {
+            return false;
+        }
         for (int i = 0; i < str.length(); i++) {
-            int count = 0;
-            for (int j = i; j < str.length(); j++) {
+            for (int j = i + 1; j < str.length(); j++) {
                 if (str.charAt(i) == str.charAt(j)) {
-                    count++;
-                    if (count > 1) {
-                        return false;
-                    }
+                    return false;
                 }
             }
         }
