@@ -211,8 +211,144 @@ where
   )
 ```
 <br>
+11）查询至少有一门课与学号为“001”的同学所学相同的同学的学号和姓名
 
+``` stylus
+select distinct
+  s1.StudentNo,
+  stu1.name
+from
+  score s1,
+  student stu1
+where
+  s1.StudentNo = stu1.studentNo
+  and
+  s1.CourseNo in
+  (
+  select
+    s2.CourseNo
+  from
+    score s2
+  where
+    s2.StudentNo = 001
+  )
+```
+<br>
+12）查询至少学过学号为“001”同学所有一门课的其他同学学号和姓名（和11题几乎一样）
+``` stylus
+select distinct
+  s1.StudentNo,
+  stu1.name
+from
+  score s1,
+  student stu1
+where
+  s1.StudentNo = stu1.studentNo
+  and
+  s1.StudentNo != 001
+  and
+  s1.CourseNo in
+  (
+  select
+    s2.CourseNo
+  from
+    score s2
+  where
+    s2.StudentNo = 001
+  )
+```
+<br>
+13）把“SC”表中“叶平”老师教的课的成绩都更改为此课程的平均成绩
+<br>
+这道题有两个点需要注意：
+- MySQL中不支持先select同一表中的某值，再update这个表，所以需要采用再select的方式来提取值；
+- 个人理解的该题的题意是，假设叶平老师教授了A课和B课，那么课程A改为课程A的平均成绩，课程B改为课程B的平均成绩。实际上我写出的是课程A和B的成绩都改为A和B成绩的平均成绩。所以实际上我认为以下的写法是有违题意的，但是按照理解的题意，暂未想到合适的sql语句，故此搁浅，隔日再审。
 
+``` stylus
+update 
+  score s1
+set
+  s1.score = 
+  (
+  select
+    table1.avgScore
+  from
+    (
+    select
+      avg(s2.score) as avgScore
+    from
+      score s2,
+      course c2,
+      teacher t2
+    where
+      s2.CourseNo = c2.courseNo
+      and
+      c2.teacherNo = t2.teacherNo
+      and
+      t2.name = '叶平'
+    )table1  
+  )
+  
+where
+  s1.CourseNo in
+  (
+  select
+    c1.courseNo
+  from
+    course c1,
+    teacher t1
+  where
+    c1.teacherNo = t1.teacherNo
+    and
+    t1.name = '叶平'
+  )
+```
+<br>
+14）查询和“002”号的同学学习的课程完全相同的其他同学学号和姓名
+<br>
+这里利用了CourseNo作为主键唯一的特性，不同人的各课程相加的值也不同，如果相同，那么所学课程必定相同。
+``` stylus
+select
+  s1.StudentNo,
+  stu1.name
+from
+  score s1,
+  student stu1
+where
+  s1.StudentNo = stu1.studentNo
+  and
+  s1.StudentNo != 2
+  group by s1.StudentNo
+  having sum(s1.CourseNo) =
+  (
+  select
+    sum(s2.CourseNo)
+  from
+    score s2
+  where
+    s2.StudentNo = 2
+  )
+```
+5）删除学习“叶平”老师课的SC表记录
+
+``` stylus
+delete from 
+  score s1
+where
+  s1.CourseNo in
+  (
+  select
+    c1.courseNo
+  from
+    course c1,
+    teacher t1
+  where
+    c1.teacherNo = t1.teacherNo
+    and
+    t1.name = '叶平'
+  )
+
+```
 
 
 
