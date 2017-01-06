@@ -329,7 +329,8 @@ where
     s2.StudentNo = 2
   )
 ```
-5）删除学习“叶平”老师课的SC表记录
+<br>
+15）删除学习“叶平”老师课的SC表记录
 
 ``` stylus
 delete from 
@@ -349,8 +350,39 @@ where
   )
 
 ```
+<br>
+16）向SC表中插入一些记录，这些记录要求符合以下条件：1、没有上过编号“002”课程的同学学号；2、插入“002”号课程的平均成绩<br>
+（本题采用插入子查询的方式，三个字段中后两个字段为常量）
 
-
+``` stylus
+insert into score(StudentNo, courseNo, score)
+(
+select
+  stu1.StudentNo, 
+  "002",
+  (
+  select
+    avg(s1.score)
+  from
+    score s1
+  where
+    s1.CourseNo = 2
+  ) 
+from
+  student stu1
+where
+  stu1.studentNo not in
+  (
+  select
+    s2.StudentNo
+  from
+    score s2
+  where
+    s2.CourseNo = 2
+  )
+)
+```
+<br>
 
 
 
