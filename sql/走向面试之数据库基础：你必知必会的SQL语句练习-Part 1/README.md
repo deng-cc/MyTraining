@@ -258,7 +258,8 @@ where
   )
 ```
 <br>
-13）把“SC”表中“叶平”老师教的课的成绩都更改为此课程的平均成绩
+
+<font color=#FF0000 >13）把“SC”表中“叶平”老师教的课的成绩都更改为此课程的平均成绩</font>
 <br>
 这道题有两个点需要注意：
 - MySQL中不支持先select同一表中的某值，再update这个表，所以需要采用再select的方式来提取值；
@@ -304,7 +305,7 @@ where
   )
 ```
 <br>
-14）查询和“002”号的同学学习的课程完全相同的其他同学学号和姓名
+<font color=#FF0000 >14）查询和“002”号的同学学习的课程完全相同的其他同学学号和姓名</font>
 <br>
 这里利用了CourseNo作为主键唯一的特性，不同人的各课程相加的值也不同，如果相同，那么所学课程必定相同。
 ``` stylus
@@ -351,7 +352,8 @@ where
 
 ```
 <br>
-16）向SC表中插入一些记录，这些记录要求符合以下条件：1、没有上过编号“002”课程的同学学号；2、插入“002”号课程的平均成绩<br>
+<font color=#FF0000 >16）向SC表中插入一些记录，这些记录要求符合以下条件：1、没有上过编号“002”课程的同学学号；2、插入“002”号课程的平均成绩</font>
+<br>
 （本题采用插入子查询的方式，三个字段中后两个字段为常量）
 
 ``` stylus
@@ -383,13 +385,156 @@ where
 )
 ```
 <br>
+<font color=#FF0000 >17）按平均成绩从低到高显示所有学生的“语文”、“数学”、“英语”三门的课程成绩，按如下形式显示： 学生ID,语文,数学,英语,有效课程数,有效平均分</font>
+<br>
+（在自然连接和等值连接中，不匹配的元组信息会丢失，如果在这道题中使用，就会不完整。这里采用了相关子查询的方式。）
+
+``` stylus
+select
+  s.StudentNo,
+  (select s1.score from score s1 where s1.CourseNo=1 and s1.StudentNo = s.StudentNo) as "语文",
+  (select s2.score from score s2 where s2.CourseNo=2 and s2.StudentNo = s.StudentNo) as "数学",
+  (select s3.score from score s3 where s3.CourseNo=3 and s3.StudentNo = s.StudentNo) as "英语",
+  COUNT(s.CourseNo) as "有效课程数",
+  AVG(s.score) as "有效平均分"
+from
+  score s
+  group by s.StudentNo
+  order by AVG(s.score)
+```
+先将score s按s.StudentNo分类，则StudentNo不重复，分别提出和子查询中参与运算，如[ select s1.score from score s1 where s1.CourseNo=1 and s1.StudentNo = s.StudentNo ]中，提取s中StudentNo如1到子查询中，在子查询中找到s1.StudentNo = s.StudentNo = 1的，然后继续条件and s1.CourseNo = 1，如果没有，填为null。
+<br>
+
+18）查询各科成绩最高和最低的分：以如下形式显示：课程ID，最高分，最低分；
+
+``` stylus
+select
+  s1.CourseNo as '课程ID',
+  max(s1.score) as '最高分',
+  min(s1.score) as '最低分'
+from
+  score s1
+  group by s1.CourseNo
+```
+<br>
+
+<font color=#FF0000 >19）按各科平均成绩从低到高和及格率的百分数从高到低顺序；</font>
+
+
+``` stylus
+select
+  s1.CourseNo,
+  avg(s1.score) as 'avgScore',
+  t1.passNum / count(s1.StudentNo) as 'passRate'
+from
+  score s1, 
+  (
+  select
+    s2.CourseNo,
+    count(s2.StudentNo) as 'passNum'
+  from
+    score s2
+  where
+    s2.score > 60
+    group by s2.CourseNo
+  )t1
+where
+  s1.CourseNo = t1.CourseNo
+  group by s1.CourseNo
+  order by avgScore, passRate desc 
+```
+（这种解法有误，忽略了某学科全部成绩低于60的情况，信息丢失）
+<br>
+所以采取外连接的方式，重写如下：
+
+``` stylus
+select
+  t0.CourseNo,
+  t0.avgScore,
+  t1.passNum,
+  t0.amount,
+  t1.passNum / t0.amount * 100 as 'passRate'
+from
+  (
+  select
+    s1.CourseNo,
+    avg(s1.score) as 'avgScore',
+    count(s1.score) as 'amount'
+  from
+    score s1
+    group by s1.CourseNo
+  )t0
+  natural left outer join
+  (
+  select
+    s2.CourseNo,
+    count(s2.StudentNo) as 'passNum'
+  from
+    score s2
+  where
+    s2.score > 60
+    group by s2.CourseNo
+  )t1
+  order by t0.avgScore, passRate desc
+```
+科目1所有人都没及格，你会发现这个查询结果及格数为null，但是我们想要的是，如果没有就为0，怎么办？那么我们在使用ifNull函数：
+
+``` stylus
+select
+  t0.CourseNo,
+  t0.avgScore,
+  ifnull(t1.passNum, 0),
+  t0.amount,
+  ifnull(t1.passNum, 0) / t0.amount * 100 as 'passRate'
+from
+  (
+  select
+    s1.CourseNo,
+    avg(s1.score) as 'avgScore',
+    count(s1.score) as 'amount'
+  from
+    score s1
+    group by s1.CourseNo
+  )t0
+  natural left outer join
+  (
+  select
+    s2.CourseNo,
+    count(s2.StudentNo) as 'passNum'
+  from
+    score s2
+  where
+    s2.score > 60
+    group by s2.CourseNo
+  )t1
+  order by t0.avgScore, passRate desc
+```
+这里，提一下MYSQL中ISNULL和IFNULL的区别：<br>
+ISNULL(expr)：if expr is NULL, returns 1, else returns 0;<br>
+IFNULL(expr1, expr2)：if expr1 is not NULL, returns expr1, else returns expr2.
+<br>
 
 
 
+20）查询不同老师所教不同课程平均分从高到低显示
 
-
-
-
+``` stylus
+select
+  t1.name,
+  c1.courseNo,
+  c1.name,
+  avg(s1.score)
+from
+  score s1,
+  course c1,
+  teacher t1
+where
+  s1.CourseNo = c1.courseNo
+  and
+  c1.teacherNo = t1.teacherNo
+  group by s1.CourseNo
+  order by avg(s1.score) desc
+```
 
 
 
