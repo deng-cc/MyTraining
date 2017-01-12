@@ -259,7 +259,7 @@ where
 ```
 <br>
 
-<font color=#FF0000 >**13）把“SC”表中“叶平”老师教的课的成绩都更改为此课程的平均成绩**</font>
+**13）把“SC”表中“叶平”老师教的课的成绩都更改为此课程的平均成绩**
 <br>
 这道题有两个点需要注意：
 - MySQL中不支持先select同一表中的某值，再update这个表，所以需要采用再select的方式来提取值；
@@ -305,7 +305,7 @@ where
   )
 ```
 <br>
-<font color=#FF0000 >**14）查询和“002”号的同学学习的课程完全相同的其他同学学号和姓名**</font>
+**14）查询和“002”号的同学学习的课程完全相同的其他同学学号和姓名**
 <br>
 这里利用了CourseNo作为主键唯一的特性，不同人的各课程相加的值也不同，如果相同，那么所学课程必定相同。
 ``` stylus
@@ -352,7 +352,7 @@ where
 
 ```
 <br>
-<font color=#FF0000 >**16）向SC表中插入一些记录，这些记录要求符合以下条件：1、没有上过编号“002”课程的同学学号；2、插入“002”号课程的平均成绩**</font>
+**16）向SC表中插入一些记录，这些记录要求符合以下条件：1、没有上过编号“002”课程的同学学号；2、插入“002”号课程的平均成绩**
 <br>
 （本题采用插入子查询的方式，三个字段中后两个字段为常量）
 
@@ -385,7 +385,7 @@ where
 )
 ```
 <br>
-<font color=#FF0000 >**17）按平均成绩从低到高显示所有学生的“语文”、“数学”、“英语”三门的课程成绩，按如下形式显示： 学生ID,语文,数学,英语,有效课程数,有效平均分**</font>
+**17）按平均成绩从低到高显示所有学生的“语文”、“数学”、“英语”三门的课程成绩，按如下形式显示： 学生ID,语文,数学,英语,有效课程数,有效平均分**
 <br>
 （在自然连接和等值连接中，不匹配的元组信息会丢失，如果在这道题中使用，就会不完整。这里采用了相关子查询的方式。）
 
@@ -418,7 +418,7 @@ from
 ```
 <br>
 
-<font color=#FF0000 >**19）按各科平均成绩从低到高和及格率的百分数从高到低顺序；**</font>
+**19）按各科平均成绩从低到高和及格率的百分数从高到低顺序；**
 
 
 ``` stylus
@@ -515,7 +515,6 @@ IFNULL(expr1, expr2)：if expr1 is not NULL, returns expr1, else returns expr2.
 <br>
 
 
-
 20）查询不同老师所教不同课程平均分从高到低显示
 
 ``` stylus
@@ -535,6 +534,116 @@ where
   group by s1.CourseNo
   order by avg(s1.score) desc
 ```
+<br>
+
+**21）统计列印各科成绩,各分数段人数: 课程ID,课程名称,[100-85],[85-70],[70-60],[ 低于60] **<br>
+这里用到了MySQL中 case when then else end 用法，命令如其名，详见题目SQL语句。
+
+``` stylus
+select
+  s1.CourseNo,
+  c1.name,
+  sum(case when s1.score between 85 and 100 then 1 else 0 end) as "85-100",
+  sum(case when s1.score between 70 and 85 then 1 else 0 end) as "70-85",
+  sum(case when s1.score between 60 and 70 then 1 else 0 end) as "60-70",
+  sum(case when s1.score < 60 then 1 else 0 end) as "<60"
+from
+  score s1,
+  course c1
+where
+  s1.CourseNo = c1.courseNo
+  group by s1.CourseNo
+```
+<br>
+**22）查询各科成绩前三名的记录:(不考虑成绩并列情况)**<br>
+这里会巧妙利用到相关子查询。
+
+``` stylus
+select
+  *
+from
+  score s1
+where
+  s1.score in
+  (
+  select
+    s2.score
+  from
+    score s2
+  where
+    s2.CourseNo = s1.CourseNo
+    order by s2.score desc
+    limit 0, 3
+  )
+```
+如果每次提出的该行中的分数，在该分数对应学科的前三名分数当中，那么符合条件，提取出来。<br>
+但是，在MySQL4.1中子查询是不能使用LIMIT的，手册中也明确指明 This version of MySQL doesn’t yet support ‘LIMIT & IN/ALL/ANY/SOME subquery’。<br>
+所以这个方法暂时待定，换另一个方法：
+
+``` stylus
+select
+  *
+from
+  score s
+where
+  (
+  select
+    count(*)
+  from
+    score s1
+  where
+    s1.CourseNo = s.CourseNo
+    and
+    s1.score > s.score
+  ) < 3
+order by s.CourseNo
+```
+这个方法的思路是，需要提取的行，该行对应的分数对应的学科中，比它高的分数必须小于3个（即假如自己是第3，那么在该学科所有分数中，比自己高的只有第一和第二共2个）<br>
+但是，这个方法对于并列的成绩，会全部输出。<br>
+<br>
+
+23）查询每门课程被选修的学生数
+
+``` stylus
+select
+  s1.CourseNo,
+  count(s1.StudentNo)
+from
+  score s1
+  group by s1.CourseNo
+
+```
+<br>
+
+24）查询出只选修了一门课程的全部学生的学号和姓名
+
+``` stylus
+select
+  s1.StudentNo,
+  stu1.name
+from
+  score s1,
+  student stu1
+where
+  s1.StudentNo = stu1.studentNo
+  group by s1.StudentNo
+  having count(s1.CourseNo) = 1
+```
+<br>
+
+25）查询男生、女生的人数
+
+``` stylus
+select
+  stu1.sex,
+  count(stu1.studentNo)
+from
+  student stu1
+  group by stu1.sex
+
+```
+
+
 
 
 
