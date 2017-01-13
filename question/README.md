@@ -100,9 +100,70 @@ Which statement at line 11 constructs an instance of the inner class?
 
 ---
 
+以下集合对象中哪几个是线程安全的（）
+- LinkedList
+- ArrayList
+- [x] Vector
+- [x] Hashtable
 
+解析：<br>
+集合中线程安全的类有：vector，stack，hashtable，enumeration，除此之外均是非线程安全的类与接口。
 
+---
 
+``` stylus
+public class NameList
+{
+    private List names = new ArrayList();
+    public synchronized void add(String name)
+    {
+        names.add(name);
+    }
+    public synchronized void printAll()     {
+        for (int i = 0; i < names.size(); i++)
+        {
+            System.out.print(names.get(i) + ””);
+        }
+    }
+ 
+    public static void main(String[]args)
+    {
+        final NameList sl = new NameList();
+        for (int i = 0; i < 2; i++)
+        {
+            new Thread()
+            {
+                public void run()
+                {
+                    sl.add(“A”);
+                    sl.add(“B”);
+                    sl.add(“C”);
+                    sl.printAll();
+                }
+            } .start();
+        }
+    }
+}
+```
+Which two statements are true if this class is compiled and run?<br>
+- An exception may be thrown at runtime.
+- The code may run with no output, without exiting.
+- The code may run with no output, exiting normally(正常地).
+- The code may rum with output “A B A B C C “, then exit.
+- [x] The code may rum with output “A B C A B C A B C “, then exit.
+- The code may ruin with output “A A A B C A B C C “, then exit.
+- [x] The code may ruin with output “A B C A A B C A B C “, then exit.
+解析：<br>
+有两条进程在同时进行，线程内的是顺序进行，线程之间的顺序不定，可能是交叉执行，也有可能是先执行了一个线程后执行了另一个线程。<br>
+所以第一次输出，最少可能输出3个即直接运行完整个第一个线程，最多可能输出6个就是两个线程交叉运行直到双方线程的addA、addB、addC都执行完成然后执行其中一方的print。<br>
+所以分析一下几个答案：
+- A B A B C C （第一次print一定有C，所以第一次输出ABABC，第二次只输出了C，不可能，错）
+- A B C A B C A B C （第一次print输出ABC，然后执行第二线程，再输出ABCABC，最终ABCABCABC，正确）
+- A A A B C A B C C （AAA不可能出现，错）
+- A B C A A B C A B C （第一次输出ABCA，第二次输出ABCABC，最终输出ABCAABCABC，正确）
+第二次输出的内容前部分一定是第一次输出的内容，如G选项中第二次输出A B C A B C，前半部分正是第一次输出的ABCA。
+
+---
 
 
 
