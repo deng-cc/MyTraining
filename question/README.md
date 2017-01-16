@@ -153,6 +153,7 @@ Which two statements are true if this class is compiled and run?<br>
 - [x] The code may rum with output “A B C A B C A B C “, then exit.
 - The code may ruin with output “A A A B C A B C C “, then exit.
 - [x] The code may ruin with output “A B C A A B C A B C “, then exit.
+<br>
 解析：<br>
 有两条进程在同时进行，线程内的是顺序进行，线程之间的顺序不定，可能是交叉执行，也有可能是先执行了一个线程后执行了另一个线程。<br>
 所以第一次输出，最少可能输出3个即直接运行完整个第一个线程，最多可能输出6个就是两个线程交叉运行直到双方线程的addA、addB、addC都执行完成然后执行其中一方的print。<br>
