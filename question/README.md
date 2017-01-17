@@ -2,7 +2,7 @@
 这里放一些对自己而言比较典型的，或者有价值的一些面试题。
 
 # 试题
-下面选项中,哪些是interface中合法方法定义?()
+1、下面选项中,哪些是interface中合法方法定义?()
 - [x] public void main(String [] args);
 - private int getSum();
 - [x] boolean setFlag(Boolean [] test);
@@ -14,7 +14,7 @@ java程序的入口必须是static类型的，接口中不允许有static类型�
 
 ---
 
-下列Java代码中的变量a、b、c分别在内存的____存储区存放。
+2、下列Java代码中的变量a、b、c分别在内存的____存储区存放。
 
 ``` stylus
 class A {
@@ -39,7 +39,7 @@ a是类中的成员变量，存放在堆区；b、c都是方法中的局部变�
 
 ---
 
-ArrayList list = new ArrayList(20);中的list扩充几次
+3、ArrayList list = new ArrayList(20);中的list扩充几次
 - [x] 0
 - 1
 - 2
@@ -57,7 +57,7 @@ b6=b4+b5;
 b3=(b1+b2); 
 System.out.println(b3+b6);
 ```
-关于上面代码片段叙述正确的是（）
+4、关于上面代码片段叙述正确的是（）
 - 输出结果：13
 - 语句：b6=b4+b5编译出错
 - [x] 语句：b3=b1+b2编译出错
@@ -89,7 +89,7 @@ Java中没有final修饰的的byte，short，char进行计算时都会提升为i
 13.
 14.}
 ```
-Which statement at line 11 constructs an instance of the inner class?
+5、Which statement at line 11 constructs an instance of the inner class?
 - InsideOne ei=eo.new InsideOne();
 - eo.InsideOne ei=eo.new InsideOne();
 - InsideOne ei=EnclosingOne.new InsideOne();
@@ -100,7 +100,7 @@ Which statement at line 11 constructs an instance of the inner class?
 
 ---
 
-以下集合对象中哪几个是线程安全的（）
+6、以下集合对象中哪几个是线程安全的（）
 - LinkedList
 - ArrayList
 - [x] Vector
@@ -145,7 +145,7 @@ public class NameList
     }
 }
 ```
-Which two statements are true if this class is compiled and run?<br>
+7、Which two statements are true if this class is compiled and run?<br>
 - An exception may be thrown at runtime.
 - The code may run with no output, without exiting.
 - The code may run with no output, exiting normally(正常地).
