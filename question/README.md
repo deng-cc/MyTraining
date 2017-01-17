@@ -166,6 +166,79 @@ public class NameList
 
 ---
 
+8、以下哪些jvm的垃圾回收方式采用的是复制算法回收
+- [x] 新生代串行收集器
+- 老年代串行收集器
+- 并行收集器
+- [x] 新生代并行回收收集器
+- 老年代并行回收收集器
+- cms收集器
+<br>
+解析：<br>
+两个最基本的java回收算法：复制算法和标记清理算法<br>
+复制算法：两个区域A和B，初始对象在A，继续存活的对象被转移到B。此为新生代最常用的算法
+<br>
+标记清理：一块区域，标记要回收的对象，然后回收，一定会出现碎片，那么引出<br>
+标记-整理算法：多了碎片整理，整理出更大的内存放更大的对象<br>
+<br>
+两个概念：新生代和年老代<br>
+新生代：初始对象，生命周期短的<br>
+年老代：长时间存在的对象<br>
+整个java的垃圾回收是新生代和年老代的协作，这种叫做分代回收。
+<br>
+- Serial New收集器是针对新生代的收集器，采用的是复制算法
+- Parallel New（并行）收集器，新生代采用复制算法，老年代采用标记整理
+- Parallel  Scavenge（并行）收集器，针对新生代，采用复制收集算法
+- Serial Old（串行）收集器，新生代采用复制，老年代采用标记清理
+- Parallel Old（并行）收集器，针对老年代，标记整理
+- CMS收集器，基于标记清理
+- G1收集器：整体上是基于标记清理，局部采用复制
+综上：新生代基本采用复制算法，老年代采用标记整理算法。cms采用标记清理。
+<br>
+更多关于垃圾回收的知识点，JVM垃圾回收总结需要深入理解阅读，这里不再展开，可以参考[《JVM垃圾回收总结》][1]
+
+---
+
+9、说明输出结果。
+
+``` stylus
+package test;
+import java.util.Date; 
+public class SuperTest extends Date{ 
+    private static final long serialVersionUID = 1L; 
+    private void test(){ 
+       System.out.println(super.getClass().getName()); 
+    } 
+      
+    public static void main(String[]args){ 
+       new SuperTest().test(); 
+    } 
+}
+```
+- SuperTest
+- SuperTest.class
+- [x] test.SuperTest
+- test.SuperTest.class
+<br>
+解析：<br>
+TestSuper和Date的getClass都没有重写，他们都是调用Object的getClass，而Object的getClass作用是返回的是运行时的类的名字。这个运行时的类就是当前类，所以
+
+``` stylus
+super.getClass().getName()
+```
+返回的是test.SuperTest，与Date类无关。要返回Date类的名字需要super.getClass().getSuperclass()
+
+---
+
+10、在JAVA中，下面关于String类和StringBuffer类的描述正确的是那一个？
+- [x] StringBuffer类的对象调用toString（）方法将转换为String类型
+- 两个类都有append（）方法
+- 可以直接将字符串“test”赋值给声明的String类和StringBuffer类的变量
+- 两个类的实例的值都能够被改变
+解析：<br>
+引用类型只有String可以直接复制，其他的都要new出来。String没有append方法，String实例的值不能改变。
+
+---
 
 
 
@@ -177,9 +250,4 @@ public class NameList
 
 
 
-
-
-
-
-
-
+  [1]: http://blog.csdn.net/dc_726/article/details/7934101#
