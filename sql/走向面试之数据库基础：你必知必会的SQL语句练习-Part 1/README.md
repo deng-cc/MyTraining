@@ -741,6 +741,105 @@ where
   order by stu1.studentNo
 ```
 <br>
+32）查询任何一门课程成绩在70分以上的姓名、课程名称和分数
+
+``` stylus
+select
+  stu1.name,
+  c1.name,
+  s1.score
+from
+  score s1,
+  course c1,
+  student stu1
+where
+  s1.CourseNo = c1.courseNo
+  and
+  s1.StudentNo = stu1.studentNo
+  and
+  s1.score > 70
+```
+<br>
+33）查询不及格的课程，并按课程号从大到小排列
+
+``` stylus
+select distinct
+  s1.CourseNo
+from
+  score s1
+where
+  s1.score < 60
+  order by s1.CourseNo desc
+```
+<br>
+
+34）查询课程编号为003且课程成绩在80分以上的学生的学号和姓名
+
+``` stylus
+select
+  s1.StudentNo,
+  stu1.name,
+  s1.score
+from
+  score s1,
+  student stu1
+where
+  s1.StudentNo = stu1.studentNo
+  and
+  s1.CourseNo = 3
+  and
+  s1.score > 80
+```
+<br>
+
+**35）求选了课程的学生人数**
+
+``` stylus
+select
+count(*)
+from
+(
+select
+  *
+from
+  score s1
+  group by s1.StudentNo
+) table1
+```
+<br>
+不够简洁，优化如下：
+``` stylus
+select
+  count(distinct s1.StudentNo)
+from
+  score s1
+```
+<br>
+
+**36）查询选修“杨艳”老师所授课程的学生中，成绩最高的学生姓名及其成绩**
+<br>
+使用MySQL的limit函数：<br>
+
+``` stylus
+select
+  stu1.name,
+  s1.score
+from
+  score s1,
+  course c1,
+  teacher t1,
+  student stu1
+where
+  s1.CourseNo = c1.courseNo
+  and
+  s1.StudentNo = stu1.studentNo
+  and
+  c1.teacherNo = t1.teacherNo
+  and
+  t1.name = '杨艳'
+  order by s1.score desc
+  limit 0, 1
+```
 
 
 
