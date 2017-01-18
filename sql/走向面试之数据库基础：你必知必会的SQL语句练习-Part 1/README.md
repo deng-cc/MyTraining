@@ -840,7 +840,79 @@ where
   order by s1.score desc
   limit 0, 1
 ```
+<br>
+37）查询各个课程及相应的选修人数
 
+``` stylus
+select
+  c1.courseNo,
+  c1.name,
+  count(*)
+from
+  score s1,
+  course c1
+where
+  s1.CourseNo = c1.courseNo
+  group by s1.CourseNo
+```
+<br>
+**38）查询不同课程但成绩相同的学生的学号、课程号、学生成绩**
+
+``` stylus
+select distinct
+  s1.StudentNo,
+  s1.CourseNo,
+  s1.score
+from
+  score s1,
+  score s2
+where
+  s1.score = s2.score 
+  and
+  s1.CourseNo <> s2.CourseNo
+  order by s1.score
+```
+<br>
+**39）查询每门课程成绩最好的前两名**
+<br>
+这里同第22题：查询各科成绩前三名的记录
+
+``` stylus
+select
+  stu1.name,
+  s.CourseNo,
+  s.score
+from
+  score s,
+  student stu1
+where
+  (
+  select
+    count(*)
+  from
+    score s1
+  where
+    s.CourseNo = s1.CourseNo
+    and
+    s.score < s1.score 
+  ) < 2
+  and
+  s.StudentNo = stu1.studentNo
+  order by s.CourseNo
+```
+<br>
+40）统计每门课程的学生选修人数（超过5人的课程才统计）要求输出课程号和选修人数，查询结果按人数降序排列，若人数相同，按课程号升序排列
+
+``` stylus
+select
+  s1.CourseNo,
+  count(s1.StudentNo)
+from
+  score s1
+  group by s1.CourseNo
+  having count(s1.StudentNo)>5
+  order by count(s1.StudentNo) desc, s1.CourseNo
+```
 
 
 
