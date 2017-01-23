@@ -913,6 +913,129 @@ from
   having count(s1.StudentNo)>5
   order by count(s1.StudentNo) desc, s1.CourseNo
 ```
+<br>
+41）检索至少选修两门课程的学生学号
+
+``` stylus
+select
+  s1.StudentNo
+from
+  score s1
+  group by s1.StudentNo
+  having count(s1.CourseNo) >= 2
+```
+<br>
+
+**42）查询全部学生都选修的课程的课程号和课程名**
+<br>
+思路：全部学生都选修了的课程，即：score表按课程分组，课程中的学生数量和总学生数量相同的元组，即为全部学生选修的课程
+
+``` stylus
+select
+  s1.CourseNo,
+  c1.name
+from
+  score s1,
+  course c1
+where
+  s1.CourseNo = c1.courseNo
+  group by s1.CourseNo
+  having count(s1.StudentNo)=
+  (
+  select
+    count(*)
+  from
+    student stu1
+  )
+```
+<br>
+
+43）查询没学过“叶平”老师讲授的任一门课程的学生姓名
+
+``` stylus
+select
+  stu1.name
+from
+  student stu1
+where
+  stu1.StudentNo not in
+  (
+  select distinct
+    s1.StudentNo
+  from
+    score s1,
+    course c1,
+    teacher t1
+  where
+    s1.CourseNo = c1.courseNo
+    and
+    c1.teacherNo = t1.teacherNo
+    and
+    t1.name = '叶平'
+  )
+```
+<br>
+
+44）查询两门以上不及格课程的同学的学号及其平均成绩
+
+``` stylus
+select
+  t1.StudentNo,
+  t1.avgScore
+from
+(
+select
+  s2.StudentNo,
+  avg(s2.score) as avgScore
+from
+  score s2
+  group by s2.StudentNo
+) t1,
+(
+select
+  s1.StudentNo
+from
+  score s1
+where
+  s1.score < 60
+  group by s1.StudentNo
+  having count(s1.CourseNo)>=2
+) t2
+where
+  t1.StudentNo = t2.StudentNo
+```
+<br>
+
+45）检索“004”课程分数小于60，按分数降序排列的同学学号
+
+``` stylus
+select
+  s1.StudentNo,
+  s1.score
+from
+  score s1
+where
+  s1.CourseNo = 4
+  and
+  s1.score < 60
+  order by s1.score desc
+```
+<br>
+
+46）删除“002”同学的“001”课程的成绩
+
+``` stylus
+enter code heredelete from
+  score s1
+where
+  s1.StudentNo = 2
+  and
+  s1.CourseNo = 1 
+```
+<br>
+<br>
+
+END
 
 
 

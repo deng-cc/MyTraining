@@ -10,12 +10,15 @@
     <file path="/Replacement.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483261868252" ignored="false" />
     <file path="/Zipper.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483269622922" ignored="false" />
     <file path="/Transform.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483415853392" ignored="false" />
-    <file path="/fragment.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483412471286" ignored="false" />
+    <file path="/fragment.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1484731399173" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../workspace4IDEA/20161009/pictureFriend/src/struts.xml" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483454334179" ignored="false" />
     <file path="/Clearer.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483515743402" ignored="false" />
     <file path="/ReverseEqual.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483516546007" ignored="false" />
     <file path="/Solution.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483529492904" ignored="false" />
     <file path="/Remove.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483530013386" ignored="false" />
+    <file path="/File Header.txt.ft" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1484725889673" ignored="false" />
+    <file path="/Partition.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1484733357024" ignored="false" />
+    <file path="/TestPartition.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1484731930241" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +70,23 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/nowcoder/q011/TestPartition.java" line="18" class="com.nowcoder.q011.TestPartition" package="com.nowcoder.q011">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -76,19 +96,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Remove.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q010/Remove.java">
+      <file leaf-file-name="Partition.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q011/Partition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="17" selection-start="330" selection-end="330" vertical-scroll-proportion="0.19285715">
+            <state line="47" column="13" selection-start="1327" selection-end="1327" vertical-scroll-proportion="0.12158055">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestPartition.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q011/TestPartition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="21" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ListNode.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q010/ListNode.java">
+        <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q011/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="12" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
+            <state line="8" column="5" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,15 +144,18 @@
         <option value="$PROJECT_DIR$/src/com/nowcoder/q009/ListNode.java" />
         <option value="$PROJECT_DIR$/src/com/nowcoder/q009/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/nowcoder/q010/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/com/nowcoder/q011/ListNode.java" />
         <option value="$PROJECT_DIR$/src/com/nowcoder/q010/Remove.java" />
+        <option value="$PROJECT_DIR$/src/com/nowcoder/q011/Partition.java" />
+        <option value="$PROJECT_DIR$/src/com/nowcoder/q011/TestPartition.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="835" />
-    <option name="y" value="3" />
-    <option name="width" value="1720" />
-    <option name="height" value="1033" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="696" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -154,7 +186,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -190,15 +221,38 @@
               <option name="myItemId" value="nowcoder" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="q011" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProgrammerInterview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProgrammerInterview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nowcoder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="reference.idesettings.quicklists" />
+    <property name="options.lastSelected" value="fileTemplates" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../workspace4IDEA/20161009/pictureFriend" />
@@ -211,7 +265,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Transform">
+  <component name="RunManager" selected="Application.TestPartition">
     <configuration default="false" name="Reverse" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -274,6 +328,34 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.nowcoder.q006.Transform" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ProgrammerInterview" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestPartition" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.nowcoder.q011.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.q011.TestPartition" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -385,16 +467,18 @@
       <patterns />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Reverse" />
       <item index="1" class="java.lang.String" itemvalue="Application.Zipper" />
       <item index="2" class="java.lang.String" itemvalue="Application.Transform" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestPartition" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.Transform" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Zipper" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Reverse" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.TestPartition" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Transform" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Zipper" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Reverse" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -412,7 +496,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="835" y="3" width="1720" height="1033" extended-state="0" />
+    <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -420,24 +504,24 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4282434" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42696628" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958803" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5717566" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67228466" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32771537" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -509,9 +593,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q006/Transform.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q001/Different.java">
@@ -541,52 +623,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q007/Clearer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="13" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.49285713">
-          <folding>
-            <element signature="e#519#528#0" expanded="true" />
-            <element signature="e#580#589#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="35" column="13" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.49285713" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q006/Transform.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="35" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q008/ReverseEqual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q009/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="390" selection-end="390" vertical-scroll-proportion="0.32142857">
-          <folding />
-        </state>
+        <state line="26" column="35" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q009/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="25" selection-start="90" selection-end="90" vertical-scroll-proportion="0.08571429">
-          <folding />
-        </state>
+        <state line="4" column="25" selection-start="90" selection-end="90" vertical-scroll-proportion="0.08571429" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q010/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="12" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="3" column="4" selection-start="56" selection-end="145" vertical-scroll-proportion="0.0952381" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q008/ReverseEqual.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="7" selection-start="358" selection-end="358" vertical-scroll-proportion="0.3809524" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q010/Remove.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="330" selection-end="330" vertical-scroll-proportion="0.19285715">
+        <state line="3" column="1" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0952381" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q009/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="390" selection-end="390" vertical-scroll-proportion="0.47619048" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q011/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="5" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q011/TestPartition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="21" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q011/Partition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="13" selection-start="1327" selection-end="1327" vertical-scroll-proportion="0.12158055">
           <folding />
         </state>
       </provider>
