@@ -105,9 +105,9 @@ order by b1.cardId desc
 ```
 <br>
 
-7）将"计科一班"班同学所借图书的还期都延长一周
+**7）将"计科一班"班同学所借图书的还期都延长一周**
 <br>
-**用到MySQL的时间函数**
+用到MySQL的时间函数
 ``` stylus
 update
   borrow b1,
@@ -132,18 +132,18 @@ select distinct b.bookId from borrow b
 ```
 <br>
 
-9）如果经常按书名查询图书信息，请建立合适的索引
+**9）如果经常按书名查询图书信息，请建立合适的索引**
 <br>
-**很少用，虽然很简单也标注下重点**
+很少用，虽然很简单也标注下重点
 
 ``` stylus
 create index index_bookName on books(name)
 ```
 <br>
 
-10）建立一个视图，显示"计科一班"班学生的借书信息（只要求显示姓名和书名）
+**10）建立一个视图，显示"计科一班"班学生的借书信息（只要求显示姓名和书名）**
 <br>
-**视图的建立**
+视图的建立
 
 ``` stylus
 create view borrowInfo_C1 as
@@ -163,15 +163,54 @@ where
 ```
 <br>
 
+**11）查询当前同时借有"计算方法"和"组合数学"两本书的读者，输出其借书卡号，并按卡号升序排序输出**
 
+``` stylus
+select 
+  b1.cardId
+from
+  borrow b1,
+  books bk1
+where
+  b1.bookId = bk1.id
+  and
+  bk1.name = '计算方法'
+  and
+  b1.cardId in
+  (
+  select
+    b2.cardId
+  from
+    borrow b2,
+    books bk2
+  where
+    b2.bookId = bk2.id
+    and
+    bk2.name = '组合数学'
+  )
+order by b1.cardId
+```
+<br>
+其实可以更简单：
 
-
-
-
-
-
-
-
+``` stylus
+select
+  b1.cardId
+from
+  borrow b1,
+  books bk1
+where
+  b1.bookId = bk1.id
+  and
+  bk1.name in ('计算方法', '组合数学')
+  group by b1.cardId
+  having count(b1.cardId) = 2
+  order by b1.cardId
+```
+<br>
+<br>
+<br>
+**THE END**
 
 
 
