@@ -23,6 +23,21 @@
     <file path="$PROJECT_DIR$/../../../../test/src/com/test/Test.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486370247127" ignored="false" />
     <file path="/Palindrome.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486451672623" ignored="false" />
     <file path="/SetOfStacks.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486620606091" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q1_1/Different.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717204971" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q1_2/Reverse.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717215071" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q1_3/Same.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717229281" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q1_4/Replacement.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717239906" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q1_5/Zipper.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717248955" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q1_6/Transform.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717261376" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q1_7/Clearer.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717269843" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q1_8/ReverseEqual.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717277486" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q2_3/ListNode.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717312265" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q2_3/Remove.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717312265" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q2_4/ListNode.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717322217" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q2_4/Partition.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717322217" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q2_4/TestPartition.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717322217" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q2_5/ListNode.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717332814" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q2_5/Plus.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717332814" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +52,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -75,7 +89,7 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/nowcoder/q011/TestPartition.java" line="18" class="com.nowcoder.q011.TestPartition" package="com.nowcoder.q011">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/nowcoder/q2_4/TestPartition.java" line="18" class="com.nowcoder.q011.TestPartition" package="com.nowcoder.q011">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -91,6 +105,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -101,21 +116,18 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="SetOfStacks.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q014/SetOfStacks.java">
+        <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q3_3/SetOfStacks.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="20" column="32" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#600#620#0" expanded="true" />
-                <element signature="e#1660#1669#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Solution.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q015/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q3_5/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="28" selection-start="682" selection-end="682" vertical-scroll-proportion="0.85714287">
+            <state line="27" column="28" selection-start="682" selection-end="682" vertical-scroll-proportion="0.16071428">
               <folding>
                 <element signature="e#256#265#0" expanded="true" />
                 <element signature="e#306#315#0" expanded="true" />
@@ -134,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/nowcoder/q006/Transform.java" />
         <option value="$PROJECT_DIR$/src/com/nowcoder/q007/Clearer.java" />
         <option value="$PROJECT_DIR$/src/com/nowcoder/q008/ReverseEqual.java" />
         <option value="$PROJECT_DIR$/src/com/nowcoder/q009/ListNode.java" />
@@ -150,6 +161,7 @@
         <option value="$PROJECT_DIR$/src/com/nowcoder/q013/Palindrome.java" />
         <option value="$PROJECT_DIR$/src/com/nowcoder/q014/SetOfStacks.java" />
         <option value="$PROJECT_DIR$/src/com/nowcoder/q015/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/nowcoder/q3_5/Solution.java" />
       </list>
     </option>
   </component>
@@ -187,8 +199,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -225,7 +237,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="q015" />
+              <option name="myItemId" value="q3_5" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -247,6 +259,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProgrammerInterview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProgrammerInterview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nowcoder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="q2_2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -263,9 +297,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -277,11 +311,11 @@
     <configuration default="false" name="Reverse" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.nowcoder.q002.*" />
+          <option name="PATTERN" value="com.nowcoder.q1_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.nowcoder.q002.Reverse" />
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.q1_2.Reverse" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -303,11 +337,11 @@
     <configuration default="false" name="Zipper" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.nowcoder.q005.*" />
+          <option name="PATTERN" value="com.nowcoder.q1_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.nowcoder.q005.Zipper" />
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.q1_5.Zipper" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -331,11 +365,11 @@
     <configuration default="false" name="Transform" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.nowcoder.q006.*" />
+          <option name="PATTERN" value="com.nowcoder.q1_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.nowcoder.q006.Transform" />
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.q1_6.Transform" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -359,11 +393,11 @@
     <configuration default="false" name="TestPartition" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.nowcoder.q011.*" />
+          <option name="PATTERN" value="com.nowcoder.q2_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.nowcoder.q011.TestPartition" />
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.q2_4.TestPartition" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -387,11 +421,11 @@
     <configuration default="false" name="Plus" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.nowcoder.q012.*" />
+          <option name="PATTERN" value="com.nowcoder.q2_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.nowcoder.q012.Plus" />
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.q2_5.Plus" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -426,19 +460,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -465,6 +486,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -534,8 +568,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1296" height="696" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -629,111 +663,108 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q012/Plus.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q2_5/Plus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="38" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q011/Partition.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q2_4/Partition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="25" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q010/Remove.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q2_3/Remove.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="1" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q001/Different.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q1_1/Different.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="13" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q002/Reverse.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q1_2/Reverse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="7" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q003/Same.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q1_3/Same.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="25" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q004/Replacement.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q1_4/Replacement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="9" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q005/Zipper.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q1_5/Zipper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="18" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q006/Transform.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q1_6/Transform.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="35" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q007/Clearer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q1_7/Clearer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="13" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q008/ReverseEqual.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q1_8/ReverseEqual.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="34" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q009/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="28" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q013/ListNode.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q2_7/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="13" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q013/Palindrome.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q2_7/Palindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="37" selection-start="1595" selection-end="1595" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q014/SetOfStacks.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q3_3/SetOfStacks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="32" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#600#620#0" expanded="true" />
-            <element signature="e#1660#1669#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q015/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q2_2/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="28" selection-start="682" selection-end="682" vertical-scroll-proportion="0.85714287">
+        <state line="16" column="28" selection-start="419" selection-end="419" vertical-scroll-proportion="0.50793654">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q3_5/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="28" selection-start="682" selection-end="682" vertical-scroll-proportion="0.16071428">
           <folding>
             <element signature="e#256#265#0" expanded="true" />
             <element signature="e#306#315#0" expanded="true" />
