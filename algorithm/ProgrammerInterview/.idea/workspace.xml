@@ -1,43 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CCaseConfig">
+    <option name="checkoutReserved" value="false" />
+    <option name="markExternalChangeAsUpToDate" value="true" />
+    <option name="checkInUseHijack" value="true" />
+    <option name="useUcmModel" value="true" />
+    <option name="synchOutside" value="false" />
+    <option name="isHistoryResticted" value="true" />
+    <option name="useIdenticalSwitch" value="true" />
+    <option name="synchActivitiesOnRefresh" value="true" />
+    <option name="lastScr" value="" />
+    <option name="scrTextFileName" value="" />
+    <option name="historyRevisionsNumber" value="4" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a88e61f9-7b7d-49ee-a798-365f7d1ab478" name="Default" comment="" />
     <ignored path="ProgrammerInterview.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Different.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483256933116" ignored="false" />
-    <file path="/Reverse.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483258260250" ignored="false" />
-    <file path="/Same.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483260851652" ignored="false" />
-    <file path="/Replacement.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483261868252" ignored="false" />
-    <file path="/Zipper.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483269622922" ignored="false" />
-    <file path="/Transform.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483415853392" ignored="false" />
-    <file path="/fragment.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486449030289" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../workspace4IDEA/20161009/pictureFriend/src/struts.xml" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483454334179" ignored="false" />
-    <file path="/Clearer.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483515743402" ignored="false" />
-    <file path="/ReverseEqual.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483516546007" ignored="false" />
-    <file path="/Solution.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486621999093" ignored="false" />
-    <file path="/Remove.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483530013386" ignored="false" />
-    <file path="/File Header.txt.ft" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1484725889673" ignored="false" />
-    <file path="/Partition.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1485158020775" ignored="false" />
-    <file path="/TestPartition.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1484731930241" ignored="false" />
-    <file path="/Plus.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486372811341" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../test/src/com/test/Test.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486370247127" ignored="false" />
-    <file path="/Palindrome.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486451672623" ignored="false" />
-    <file path="/SetOfStacks.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486620606091" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/nowcoder/q1_1/Different.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717204971" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/nowcoder/q1_2/Reverse.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717215071" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/nowcoder/q1_3/Same.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717229281" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/nowcoder/q1_4/Replacement.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717239906" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/nowcoder/q1_5/Zipper.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717248955" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/nowcoder/q1_6/Transform.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717261376" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/nowcoder/q1_7/Clearer.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717269843" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/nowcoder/q1_8/ReverseEqual.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717277486" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/nowcoder/q2_3/ListNode.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717312265" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/nowcoder/q2_3/Remove.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717312265" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/nowcoder/q2_4/ListNode.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717322217" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/nowcoder/q2_4/Partition.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717322217" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/nowcoder/q2_4/TestPartition.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717322217" ignored="false" />
-    <file path="$PROJECT_DIR$/src/com/nowcoder/q2_5/ListNode.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717332814" ignored="false" />
+    <file path="/TwoStacks.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486720397571" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/nowcoder/q2_5/Plus.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717332814" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q2_5/ListNode.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717332814" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q2_4/TestPartition.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717322217" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q2_4/Partition.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717322217" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q2_4/ListNode.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717322217" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q2_3/Remove.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717312265" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q2_3/ListNode.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717312265" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q1_8/ReverseEqual.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717277486" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q1_7/Clearer.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717269843" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q1_6/Transform.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717261376" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q1_5/Zipper.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717248955" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q1_4/Replacement.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717239906" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q1_3/Same.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717229281" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q1_2/Reverse.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717215071" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/nowcoder/q1_1/Different.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486717204971" ignored="false" />
+    <file path="/SetOfStacks.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486620606091" ignored="false" />
+    <file path="/Palindrome.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486451672623" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../test/src/com/test/Test.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486370247127" ignored="false" />
+    <file path="/Plus.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486372811341" ignored="false" />
+    <file path="/TestPartition.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1484731930241" ignored="false" />
+    <file path="/Partition.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1485158020775" ignored="false" />
+    <file path="/File Header.txt.ft" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1484725889673" ignored="false" />
+    <file path="/Remove.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483530013386" ignored="false" />
+    <file path="/Solution.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486621999093" ignored="false" />
+    <file path="/ReverseEqual.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483516546007" ignored="false" />
+    <file path="/Clearer.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483515743402" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../workspace4IDEA/20161009/pictureFriend/src/struts.xml" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483454334179" ignored="false" />
+    <file path="/fragment.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1486449030289" ignored="false" />
+    <file path="/Transform.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483415853392" ignored="false" />
+    <file path="/Zipper.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483269622922" ignored="false" />
+    <file path="/Replacement.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483261868252" ignored="false" />
+    <file path="/Same.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483260851652" ignored="false" />
+    <file path="/Reverse.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483258260250" ignored="false" />
+    <file path="/Different.java" changelist="a88e61f9-7b7d-49ee-a798-365f7d1ab478" time="1483256933116" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,23 +59,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager" choice="3" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+    <option name="REVERSE_PATCH" value="false" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+    <breakpoint_any default_suspend_policy="SuspendAll">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
         <option name="COUNT_FILTER" value="0" />
         <option name="CONDITION_ENABLED" value="true" />
@@ -76,9 +90,7 @@
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
         <option name="COUNT_FILTER" value="0" />
         <option name="CONDITION_ENABLED" value="true" />
@@ -88,14 +100,12 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/nowcoder/q2_4/TestPartition.java" line="18" class="com.nowcoder.q011.TestPartition" package="com.nowcoder.q011">
+    <line_breakpoints default_suspend_policy="SuspendAll">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/nowcoder/q2_4/TestPartition.java" line="18" class="com.nowcoder.q2_4.TestPartition" package="com.nowcoder.q2_4">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
         <option name="COUNT_FILTER" value="0" />
         <option name="CONDITION_ENABLED" value="true" />
@@ -105,7 +115,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -115,23 +125,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SetOfStacks.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q3_3/SetOfStacks.java">
+      <file leaf-file-name="TwoStacks.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q3_6/TwoStacks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="32" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
+            <state line="75" column="0" selection-start="1970" selection-end="1970" vertical-scroll-proportion="2.4016228">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q3_5/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="28" selection-start="682" selection-end="682" vertical-scroll-proportion="0.16071428">
-              <folding>
-                <element signature="e#256#265#0" expanded="true" />
-                <element signature="e#306#315#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -143,10 +141,13 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
+    <option name="UPDATE_CHANGES_POLICY" value="STASH" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/nowcoder/q007/Clearer.java" />
         <option value="$PROJECT_DIR$/src/com/nowcoder/q008/ReverseEqual.java" />
         <option value="$PROJECT_DIR$/src/com/nowcoder/q009/ListNode.java" />
         <option value="$PROJECT_DIR$/src/com/nowcoder/q009/Solution.java" />
@@ -162,14 +163,38 @@
         <option value="$PROJECT_DIR$/src/com/nowcoder/q014/SetOfStacks.java" />
         <option value="$PROJECT_DIR$/src/com/nowcoder/q015/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/nowcoder/q3_5/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/nowcoder/q3_6/TwoStacks.java" />
       </list>
     </option>
+  </component>
+  <component name="ModuleEditorState">
+    <option name="LAST_EDITED_MODULE_NAME" />
+    <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1296" />
     <option name="height" value="696" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id>Inspections</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpellCheckingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -199,8 +224,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -237,7 +260,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="q3_5" />
+              <option name="myItemId" value="q3_6" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -256,50 +279,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="nowcoder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProgrammerInterview" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProgrammerInterview" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nowcoder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="q2_2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Project" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="fileTemplates" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -307,33 +314,7 @@
       <recent name="com.nowcoder.q012" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Plus">
-    <configuration default="false" name="Reverse" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.nowcoder.q1_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.nowcoder.q1_2.Reverse" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ProgrammerInterview" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.TwoStacks">
     <configuration default="false" name="Zipper" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -353,7 +334,7 @@
       <module name="ProgrammerInterview" />
       <envs />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
+        <option name="DEBUG_PORT" value="3105" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
@@ -381,7 +362,7 @@
       <module name="ProgrammerInterview" />
       <envs />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
+        <option name="DEBUG_PORT" value="3107" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
@@ -409,7 +390,7 @@
       <module name="ProgrammerInterview" />
       <envs />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
+        <option name="DEBUG_PORT" value="3109" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
@@ -437,7 +418,35 @@
       <module name="ProgrammerInterview" />
       <envs />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
+        <option name="DEBUG_PORT" value="3111" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TwoStacks" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.nowcoder.q3_6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.q3_6.TwoStacks" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ProgrammerInterview" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="3373" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
@@ -450,7 +459,12 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
-      <method />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -458,7 +472,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="OSDefault" main_class_name="" method_name="" module_name="" output_log_level="" package_name="" player_path="FlashPlayer.exe" port="0" run_mode="HtmlOrSwfFile" run_trusted="false" scope="Class" socket_policy_port="0" url_to_launch="http://">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -486,7 +512,12 @@
       <envs />
       <properties />
       <listeners />
-      <method />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
@@ -499,7 +530,12 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -514,7 +550,12 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -535,30 +576,42 @@
       </option>
       <envs />
       <patterns />
-      <method />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Reverse" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Zipper" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Transform" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestPartition" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Plus" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Zipper" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Transform" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestPartition" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Plus" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TwoStacks" />
     </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Plus" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestPartition" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Transform" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Zipper" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Reverse" />
-      </list>
-    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <configuration useDefault="true">C:\Users\Dulk\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a88e61f9-7b7d-49ee-a798-365f7d1ab478" name="Default" comment="" />
@@ -567,34 +620,55 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="696" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53370786" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5304183" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958803" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3269962" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32830188" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6716981" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3231939" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958803" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6741573" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258427" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958803" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -604,15 +678,6 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
-    <option name="myTodoPanelSettings">
-      <value>
-        <are-packages-shown value="false" />
-        <are-modules-shown value="false" />
-        <flatten-packages value="false" />
-        <is-autoscroll-to-source value="false" />
-      </value>
-    </option>
     <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
     <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
@@ -620,26 +685,11 @@
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
-    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
-    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
-    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
-    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
-    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
-    <option name="LIMIT_HISTORY" value="true" />
-    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -651,9 +701,42 @@
     <option name="ACTIVE_VCS_NAME" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="VssConfiguration">
+    <option name="CLIENT_PATH" value="" />
+    <option name="SRCSAFEINI_PATH" value="" />
+    <option name="USER_NAME" value="" />
+    <option name="PWD" value="" />
+    <CheckoutOptions>
+      <option name="COMMENT" value="" />
+      <option name="DO_NOT_GET_LATEST_VERSION" value="false" />
+      <option name="REPLACE_WRITABLE" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </CheckoutOptions>
+    <CheckinOptions>
+      <option name="COMMENT" value="" />
+      <option name="KEEP_CHECKED_OUT" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </CheckinOptions>
+    <AddOptions>
+      <option name="STORE_ONLY_LATEST_VERSION" value="false" />
+      <option name="CHECK_OUT_IMMEDIATELY" value="false" />
+    </AddOptions>
+    <UndocheckoutOptions>
+      <option name="MAKE_WRITABLE" value="false" />
+      <option name="REPLACE_LOCAL_COPY" value="2" />
+      <option name="RECURSIVE" value="false" />
+    </UndocheckoutOptions>
+    <GetOptions>
+      <option name="REPLACE_WRITABLE" value="0" />
+      <option name="MAKE_WRITABLE" value="false" />
+      <option name="ANSWER_NEGATIVELY" value="false" />
+      <option name="ANSWER_POSITIVELY" value="false" />
+      <option name="RECURSIVE" value="false" />
+      <option name="VERSION" />
+    </GetOptions>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -663,18 +746,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q2_5/Plus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="38" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q2_4/Partition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q2_3/Remove.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="1" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" />
@@ -687,91 +758,163 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q1_2/Reverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="7" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="7" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q1_3/Same.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="25" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="18" column="25" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q1_4/Replacement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="9" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="16" column="9" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q1_5/Zipper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="18" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q1_6/Transform.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="35" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="26" column="35" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q1_7/Clearer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="13" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="35" column="13" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q1_8/ReverseEqual.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="34" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="23" column="34" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q2_7/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="13" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q2_7/Palindrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="37" selection-start="1595" selection-end="1595" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q3_3/SetOfStacks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="32" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="58" column="37" selection-start="1595" selection-end="1595" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q2_2/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="28" selection-start="419" selection-end="419" vertical-scroll-proportion="0.50793654">
-          <folding />
-        </state>
+        <state line="16" column="28" selection-start="419" selection-end="419" vertical-scroll-proportion="0.50793654" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q3_5/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="28" selection-start="682" selection-end="682" vertical-scroll-proportion="0.16071428">
-          <folding>
-            <element signature="e#256#265#0" expanded="true" />
-            <element signature="e#306#315#0" expanded="true" />
-          </folding>
+        <state line="7" column="23" selection-start="128" selection-end="128" vertical-scroll-proportion="0.22222222" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q3_3/SetOfStacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="32" selection-start="657" selection-end="657" vertical-scroll-proportion="0.031746034" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/dev/jdk1.6.0_38/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="0" selection-start="2013" selection-end="2013" vertical-scroll-proportion="0.3323077">
+          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nowcoder/q3_6/TwoStacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="0" selection-start="1970" selection-end="1970" vertical-scroll-proportion="2.4016228">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions />
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ProgrammerInterview</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions />
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 
