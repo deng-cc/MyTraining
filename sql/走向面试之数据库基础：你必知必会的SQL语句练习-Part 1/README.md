@@ -445,6 +445,7 @@ from
 ```
 先将score s按s.StudentNo分类，则StudentNo不重复，分别提出和子查询中参与运算，如[ select s1.score from score s1 where s1.CourseNo=1 and s1.StudentNo = s.StudentNo ]中，提取s中StudentNo如1到子查询中，在子查询中找到s1.StudentNo = s.StudentNo = 1的，然后继续条件and s1.CourseNo = 1，如果没有，填为null。
 <br>
+<br>
 
 18）查询各科成绩最高和最低的分：以如下形式显示：课程ID，最高分，最低分；
 
@@ -553,6 +554,7 @@ from
 ISNULL(expr)：if expr is NULL, returns 1, else returns 0;
 IFNULL(expr1, expr2)：if expr1 is not NULL, returns expr1, else returns expr2.
 <br>
+<br>
 
 20）查询不同老师所教不同课程平均分从高到低显示
 
@@ -644,6 +646,7 @@ order by s.CourseNo
 （即假如自己是第3，那么在该学科所有分数中，比自己高的只有第一和第二共2个）
 但是，这个方法对于并列的成绩，会全部输出。
 <br>
+<br>
 
 23）查询每门课程被选修的学生数
 
@@ -688,7 +691,7 @@ from
 <br>
 
 **26）查询同名同姓学生名单，并统计同名人数**
-<br>
+
 这道题告诉我，凡是不要想得太复杂...
 
 ``` stylus
@@ -702,9 +705,11 @@ from
 <br>
 
 **27）查询1991年出生的学生名单**
+
 不同数据库的时间函数不一样，这里使用的是mysql；<br>
 CURDATE() 或CURRENT_DATE()  获取当前日期，按格式"YYYY-MM-DD"返回；<br>
 YEAR(date)  返回date对应的年份，范围是1970-2069
+
 ``` stylus
 select
   stu1.name,
@@ -851,7 +856,6 @@ from
   group by s1.StudentNo
 ) table1
 ```
-<br>
 
 不够简洁，优化如下：
 
